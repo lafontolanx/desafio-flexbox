@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    padding: 2em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 241, 241)
+}
+
+.logo {
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: .8em;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+}
+
+nav a:nth-child(5){
+    align-self: center;
+    color: white;
+    font-size: 13px;
+    border: 1px solid rgb(86, 38, 232);
+    border-radius: 5px;
+    background-color: rgb(86, 38, 232);
+    height: 30px;
+    width: 73px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

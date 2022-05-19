@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.date{
+    width: 100vw;
+    background-color: lightgray;
+    padding: 2rem;
+    color: black;
+    text-align: center;
+}
